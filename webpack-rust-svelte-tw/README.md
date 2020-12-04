@@ -6,10 +6,10 @@ Monorepo project template for developing Svelte apps with Rust-generated WASM.
 
 This project is powered by [`wasm-pack-plugin`](https://github.com/wasm-tool/wasm-pack-plugin), and [`wasm-pack` must first be installed](https://rustwasm.github.io/wasm-pack/installer/).
 
-Firstly, clone this template:
+Firstly, clone this template via [degit](https://github.com/Rich-Harris/degit):
 
-```sh
-npx degit AaronCQL/web-templates/webpack-rust-svelte-tw my-app
+```
+npx degit AaronCQL/web-templates/webpack-rust-svelte-tw#main my-app
 ```
 
 Then, install all dependencies:
