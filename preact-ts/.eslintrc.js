@@ -16,6 +16,7 @@ module.exports = {
       jsx: true,
     },
   },
+  ignorePatterns: ["*.js"], // ignore root .js config files
   rules: {},
   settings: {
     react: {
