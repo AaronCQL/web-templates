@@ -24,4 +24,18 @@ module.exports = {
       version: "latest",
     },
   },
+  overrides: [
+    {
+      files: ["**/*.tsx"],
+      rules: {
+        "react/prop-types": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "warn",
+          {
+            argsIgnorePattern: "^_",
+          },
+        ],
+      },
+    },
+  ],
 };
